@@ -1,20 +1,22 @@
 /*  Copyright © 2017 Arenaanimationraipur All rights Reserved.
  Developed & designed by Suraj Lahre - https://sites.google.com/view/surajlahre/
  Github :: https://github.com/SurajLahre */
-:root{
-  --themeColor:rgb(224, 9, 9);
+:root {
+  --themeColor: rgb(224, 9, 9);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-body{
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
-a
-{
+
+a {
   text-decoration: none;
   color: black;
 }
@@ -23,20 +25,23 @@ h1 {
   margin-top: 2em;
   font-size: 2em;
 }
+
 /* all heading text */
-.headingh1text{  
+.headingh1text {
   color: #001543;
   font-weight: bolder;
 }
-.text-center ul li{
+
+.text-center ul li {
   list-style: none;
 }
 
 
-.ded div:nth-child(even){
+.ded div:nth-child(even) {
   background-color: #646a7a19;
-  
+
 }
+
 /* ================================================================================================= */
 /*                    TOP NAVIGATION SECTION START */
 /* ================================================================================================= */
@@ -45,7 +50,8 @@ h1 {
   font-size: 1.5em;
   display: block;
 
-} 
+}
+
 .navbar {
   display: flex;
   background-color: #ffc107;
@@ -95,7 +101,7 @@ h1 {
 
 /* FRONT TEXT QUOTE  SECTION START */
 .headerimg {
-  background-image: url(components/image/ArenaHome.jpg);  
+  background-image: url(components/image/ArenaHome.jpg);
   color: white;
   display: flex;
   height: 100vh;
@@ -103,13 +109,13 @@ h1 {
   background-position: center;
 }
 
-.arenaintroquote{
-    color: rgba(255, 255, 255, 1);
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.3em;
-    letter-spacing: 0.075em;
+.arenaintroquote {
+  color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 0.075em;
 }
 
 .toptext {
@@ -123,43 +129,46 @@ h1 {
 /* ================================================================================================= */
 /* .SIDE NAVIGATION HEADER SECTION*/
 /* ================================================================================================= */
-.side_nav_header{
+.side_nav_header {
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.107);
   padding: 1em;
   overflow: auto;
   cursor: pointer;
 }
-.side_nav_header i{
+
+.side_nav_header i {
   font-size: x-large;
   float: right;
-  cursor: pointer;   
+  cursor: pointer;
 }
 
-.side_nav_pannel{
+.side_nav_pannel {
   overflow-x: hidden;
   z-index: 5;
   left: 0;
-  width:0px;
+  width: 0px;
   box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.247);
   height: 100vh;
 }
-.side_nav_navlist{
+
+.side_nav_navlist {
   padding: 1em;
 }
 
 .side_nav_navlist ul li {
- list-style: none;
- margin: 5px;
-border-bottom: 1px solid;
- padding: 5px;
+  list-style: none;
+  margin: 5px;
+  border-bottom: 1px solid;
+  padding: 5px;
 
 }
 
-.side_nav_navlist ul li a{
+.side_nav_navlist ul li a {
   text-decoration: none;
-  
+
 }
+
 /* ================================================================================================= */
 /*                    COURSE LIST SECTION START */
 /* ================================================================================================= */
@@ -198,7 +207,8 @@ border-bottom: 1px solid;
   color: white;
 
 }
-.course-item a:hover{
+
+.course-item a:hover {
   color: white;
 }
 
@@ -219,7 +229,7 @@ border-bottom: 1px solid;
 }
 
 
-.explore_btn{
+.explore_btn {
   font-weight: 600;
 
   border-radius: 10rem;
@@ -340,11 +350,12 @@ border-bottom: 1px solid;
 .ham-burger-menu {
   display: none;
 }
-.animation-page-text-heading{
+
+.animation-page-text-heading {
   width: 50%;
 }
 
-.vidio-container{
+.vidio-container {
   background-color: var(--themeColor);
   position: relative;
 }
@@ -354,11 +365,11 @@ border-bottom: 1px solid;
 # Testimonials START
 --------------------------------------------------------------*/
 
-.testimonial-container{
+.testimonial-container {
   background-image: url(components/image/studentfdbck/tesbg.jpg);
   background-size: cover;
   padding-bottom: 5rem;
- 
+
 }
 
 swiper-container {
@@ -375,10 +386,12 @@ swiper-slide {
   background-position: center;
   background-size: cover;
 }
+
 .tes-slider-body {
   text-align: center;
   background-color: var(--themeColor);
 }
+
 .ul-list-first {
 
   border-radius: 5px;
@@ -390,7 +403,7 @@ swiper-slide {
 }
 
 .termcard {
-   background-position: top;
+  background-position: top;
   margin: auto;
   position: relative;
   border-radius: 15px;
@@ -398,13 +411,15 @@ swiper-slide {
 
   box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.105);
 }
-.termcard:hover{
+
+.termcard:hover {
   background-color: rgba(255, 0, 0, 0.107);
   cursor: pointer;
   transition: all .3s;
   transform: translateY(-10px);
 }
-.termcard h4{
+
+.termcard h4 {
   color: rgb(207, 116, 116);
 }
 
@@ -420,6 +435,7 @@ input[type=text],
 input[type=email],
 input[type=number],
 input[type=number],
+input[type=password],
 select,
 textarea {
   width: 100%;
@@ -430,10 +446,11 @@ textarea {
   border: none;
   outline: solid 1px rgb(0, 0, 0);
   color: rgb(0, 0, 0);
-  
+
 
 }
-select{
+
+select {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
@@ -445,8 +462,8 @@ input[type=submit] {
   border: none;
   background-color: #000000de;
   color: white;
-cursor: pointer;
-border-radius: 5px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 form {
@@ -457,29 +474,75 @@ form {
 
 }
 
-.form-text { 
+.form-text {
   padding: 1em;
   width: 100%;
 }
 
 
 /* ================================================================================================= */
+/* BLOG PAGE CSS */
+/* ================================================================================================= */
+
+.blog_body_container {
+  background-image: url(components/image/blogBg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+
+
+.fa-pen-to-square {
+  cursor: pointer;
+}
+
+.singletext {
+
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(25, 0, 255);
+  color: white;
+}
+
+.topbtn {
+  display: block;
+  padding: 4em;
+  margin: auto;
+  justify-content: center;
+  font-size: 3em;
+
+}
+
+
+
+
+
+/* ================================================================================================= */
 /* .GalLERY IMAGE VIEWR MODAL */
 /* ================================================================================================= */
-.modal_container{
-  display:none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 10; /* Sit on top */
+.modal_container {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 10;
+  /* Sit on top */
   top: 0;
-  left:0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.297); /* Fallback color */
+  left: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.297);
+  /* Fallback color */
   padding: 2em;
 
 }
-.modal_content{  
+
+.modal_content {
   margin-top: 1em;
   width: 90%;
   height: 100%;
@@ -487,55 +550,58 @@ form {
   vertical-align: auto;
   box-shadow: 2px 4px 3px 5px rgba(0, 0, 0, 0.135);
 }
-.GalimageCloser{
+
+.GalimageCloser {
   font-size: x-large;
   float: right;
 }
-.fa-x{
+
+.fa-x {
   cursor: pointer;
 }
-.GalViewCard{
+
+.GalViewCard {
   height: 100%;
 }
-  
-  /* ================================================================================================= */
-  /*                      FOOTER SECTION START */
-  /* ================================================================================================= */
-  
-  .footer {
-    background-color: var(--themeColor);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  
-  }
-  
-  .footer-links {
-    padding: 1em;
-    margin-top: 2em;
-    line-height: 2em;
-  
-  }
-  
-  .footer-links ul li {
-    list-style: none;
-  }
-  
-  .footer-links ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .copyrigh-text{
-    background-color: var(--themeColor);
-    color: rgba(255, 255, 255, 0.626);
-  
-  }
-  
-  
-  .swiper {
-    width: 600px;
-    height: 300px;
-  }
+
+/* ================================================================================================= */
+/*                      FOOTER SECTION START */
+/* ================================================================================================= */
+
+.footer {
+  background-color: var(--themeColor);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.footer-links {
+  padding: 1em;
+  margin-top: 2em;
+  line-height: 2em;
+
+}
+
+.footer-links ul li {
+  list-style: none;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyrigh-text {
+  background-color: var(--themeColor);
+  color: rgba(255, 255, 255, 0.626);
+
+}
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
 
 /* ================================================================================================= */
 /*                      MOBILE SND SHORT DEVICE MEDIA QUERRY SECTION START */
@@ -547,16 +613,20 @@ form {
     margin: auto;
     position: relative;
   }
-  h1{
+
+  h1 {
     margin-top: 0;
   }
-  .animation-page-text-heading{
+
+  .animation-page-text-heading {
     width: 100%;
   }
-  .term-card-body{
+
+  .term-card-body {
     display: flex;
     flex-wrap: wrap;
   }
+
   .nav-navlinks {
     display: none;
   }
@@ -588,4 +658,3 @@ form {
   }
 
 }
-

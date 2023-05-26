@@ -28,7 +28,7 @@ function Course() {
                     <button onClick={() => { setCourseDetail(<UXUI />) }} type="button" className="mx-2 my-1 btn btn-outline-warning text-dark" id='gvd'>UX/UI Designing</button>
                     <button onClick={() => { setCourseDetail(<DMarketing />) }} type="button" className="mx-2 my-1 btn btn-outline-warning text-dark" id='gvd'>D-Marketing</button>
                     <button onClick={() => { setCourseDetail(<ShortTerm />) }} type="button" className="mx-2 my-1 btn btn-outline-warning text-dark" id='stc'>SHORT-TERM COURSES</button>
-                    <button class="btn btn-warning text-dark my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Download Course Details</button>
+                    <button className="btn btn-warning text-dark my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Download Course Details</button>
                 </div>
             </div>
             <div>{CourseDetail}</div>
@@ -41,7 +41,7 @@ function Course() {
                             <h1 className="modal-title fs-6 m-auto" id="staticBackdropLabel"><strong>Fill the Form to Download Course Details</strong></h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div className="modal-body">
                             <ModalCon />
                         </div>
                         <div className="modal-footer">

@@ -24,19 +24,19 @@ function HomePage() {
       <ContactForm />
       {/* <!-- Vertically centered modal --> */}
 
-      <button type="button" id='click' class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"></button>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header bg-warning">
-              <h1 class="modal-title fs-5 m-auto" id="exampleModalLabel"><strong>Download All Course Detail</strong></h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <button type="button" id='click' className="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"></button>
+      <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header bg-warning">
+              <h1 className="modal-title fs-5 m-auto" id="exampleModalLabel"><strong>Download All Course Detail</strong></h1>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <ModalCon />
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
 
             </div>
           </div>

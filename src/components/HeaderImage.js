@@ -48,8 +48,8 @@ export default function Header() {
             <h5 className='Text p-3'>Register/Call Now</h5>
             <p className='p-2'>Arenaraipur is the Best Institute for Graphics, Animation & VFx.</p>
             <p>CALL US NOW</p>
-            <div className='btn btn-light m-1'><i class="fa-solid fa-phone mx-1"></i><a href="tel:7714039789">+91-7714039789</a></div>
-            <div className='btn btn-light m-1'><i class="fa-solid fa-phone mx-1"></i><a href="tel:7714039789">+91-9589233695</a></div>
+            <div className='btn btn-light m-1'><i className="fa-solid fa-phone mx-1"></i><a href="tel:7714039789">+91-7714039789</a></div>
+            <div className='btn btn-light m-1'><i className="fa-solid fa-phone mx-1"></i><a href="tel:7714039789">+91-9589233695</a></div>
           </div>
         </div>
       </div>

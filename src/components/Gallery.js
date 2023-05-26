@@ -41,7 +41,7 @@ function Gallery() {
             <div className='modal_container' id='modalid'>
                 <div className='Modal_body modal_content h-100'>
                     <div className='p-2'>
-                        <i class="fa-solid fa-x text-light GalimageCloser" onClick={CloseGalViewer} ></i>
+                        <i className="fa-solid fa-x text-light GalimageCloser" onClick={CloseGalViewer} ></i>
                     </div>
 
                     <Swiper style={style1} navigation={true} modules={[Navigation]} className="mySwiper">

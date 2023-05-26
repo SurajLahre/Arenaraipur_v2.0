@@ -16,7 +16,7 @@ function Navigation() {
     return (
         <>
             <div className='navbar '>
-                <p className='toptext p-1'><i class="fa-solid fa-location-dot mx-1"></i>
+                <p className='toptext p-1'><i className="fa-solid fa-location-dot mx-1"></i>
                     Govind Kunj Civil Lines Raipur Chhattisgarh- India</p>
                 <div className='nav-navlinks d-flex'>
                     <div className='nav-logo'>
@@ -36,7 +36,7 @@ function Navigation() {
                         </li>
 
                         <li className='courseid'>
-                            <a href='#courseid'>Courses</a><i class="fa-solid fa-angle-down p-1"></i>
+                            <a href='#courseid'>Courses</a><i className="fa-solid fa-angle-down p-1"></i>
                             <div className='course-list'>
                                 <div className='course-item course-1'><Link to='/AnimationPrime'>ANIMATION PRIME</Link></div>
                                 <div className='course-item course-2'><Link to='/VFx'>VISUAL EFFECTS (VFx)</Link></div>
@@ -50,7 +50,7 @@ function Navigation() {
                         </li>
 
                         <li className='studentid'>
-                            <a href='/'>Students Work</a><i class="fa-solid fa-angle-down p-1"></i>
+                            <a href='/'>Students Work</a><i className="fa-solid fa-angle-down p-1"></i>
                             <div className='student-section'>
                                 <div className='course-item course-1'>STUDENTS WORK</div>
                                 <div className='course-item course-2'><a href='https://www.creosouls.com/' target='New Tab'>CREOSOULS</a></div>
@@ -59,7 +59,7 @@ function Navigation() {
                         </li>
 
                         <li><Link to='/Gallery'>Gallary</Link></li>
-                        <li><Link to='/'>Blog</Link></li>
+                        <li><Link to='/blogs'>Blog</Link></li>
                         <li><Link to='/enquiry'>Enquiry</Link></li>
                         <li><Link to='/enquiry'>Contact</Link></li>
                     </ul>
@@ -67,17 +67,17 @@ function Navigation() {
                 <div className='nav-social-icons'>
                     <a href="https://www.facebook.com/arenaanimationraipur/" target='new tab' className="btn btn-sm btn-primary rounded-5 mx-2" type="button"><i className="fa-brands fa-facebook f"></i></a>
                     <a href="https://www.instagram.com/arenaanimationraipur/?hl=en" target='new tab' className="btn btn-sm btn-danger rounded-5 mx-2" type="button"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="/" className="btn btn-sm btn-primary rounded-5 mx-2" target='new tab' type="button"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/@arenaaraipur" target='new tab' className="btn btn-sm btn-danger rounded-5 mx-2" type="button"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="/" className="btn btn-sm btn-primary rounded-5 mx-2" target='new tab' type="button"><i className="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@arenaaraipur" target='new tab' className="btn btn-sm btn-danger rounded-5 mx-2" type="button"><i className="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
             {/* ==========================================================================
             #ANOTHER MODALS LIKE SIDENAV, AND IMAEG PRIVIEW SLIDER SECTION START 
             ========================================================================== */}
-            <sidenav className="side_nav_pannel bg-light position-fixed h-100 top-0" id='Closeid'>
+            <nav className="side_nav_pannel bg-light position-fixed h-100 top-0" id='Closeid'>
 
                 <div className='side_nav_header'>
-                    <i class="fa-solid fa-xmark" onClick={CloseSidenav}></i>
+                    <i className="fa-solid fa-xmark" onClick={CloseSidenav}></i>
                 </div>
 
                 <div className='side_nav_navlist'>
@@ -85,7 +85,7 @@ function Navigation() {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/'>About</Link></li>
                         <li className='courseid'>
-                            <a href='#courseid'>Courses</a><i class="fa-solid fa-angle-down p-1"></i>
+                            <a href='#courseid'>Courses</a><i className="fa-solid fa-angle-down p-1"></i>
                             <div className='course-list'>
                                 <div className='course-item course-1'><Link to='/AnimationPrime'>ANIMATION PRIME</Link></div>
                                 <div className='course-item course-2'><Link to='/VFx'>VISUAL EFFECTS (VFx)</Link></div>
@@ -98,7 +98,7 @@ function Navigation() {
                             </div>
                         </li>
 
-                        <li className='studentid'><a href='/'>Students Work</a><i class="fa-solid fa-angle-down p-1"></i>
+                        <li className='studentid'><a href='/'>Students Work</a><i className="fa-solid fa-angle-down p-1"></i>
                             <div className='student-section'>
                                 <div className='course-item course-1'>STUDENTS WORK</div>
                                 <div className='course-item course-2'>CREOSOULS</div>
@@ -107,13 +107,13 @@ function Navigation() {
 
                             </div></li>
                         <li><Link to='/Gallery'>Gallary</Link></li>
-                        <li><Link to='/'>Blog</Link></li>
+                        <li><Link to='/blogs'>Blog</Link></li>
                         <li><Link to='/enquiry'>Enquiry</Link></li>
                         <li><Link to='/enquiry'>Contact</Link></li>
                     </ul>
                 </div>
 
-            </sidenav>
+            </nav>
 
 
         </>

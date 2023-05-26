@@ -19,10 +19,11 @@ function ContactForm() {
 
                 <div className='form-text contact-field p-5 shadow my-2 mx-2'>
                     <h1 className='form-item'>ARENA ANIMATION RAIPUR</h1>
-                    <div className='form-item d-flex'><i class="fa-solid mx-2 mt-1 fa-phone"></i><p>(+91)-7714039789/ (+91) 9589233695</p></div>
-                    <div className='form-item d-flex'><i class="fa-solid mx-2 mt-1 fa-envelope"></i><p>arenaanimationraipur01@gmail.com</p></div>
-                    <div className='form-item d-flex'><i class="fa-solid mx-2 mt-1 fa-location-dot"></i><p>Govind Kunj Civil Lines Raipur Chhattishgarh- India</p></div>
+                    <div className='form-item d-flex'><i className="fa-solid mx-2 mt-1 fa-phone"></i><p>(+91)-7714039789/ (+91) 9589233695</p></div>
+                    <div className='form-item d-flex'><i className="fa-solid mx-2 mt-1 fa-envelope"></i><p>arenaanimationraipur01@gmail.com</p></div>
+                    <div className='form-item d-flex'><i className="fa-solid mx-2 mt-1 fa-location-dot"></i><p>Govind Kunj Civil Lines Raipur Chhattishgarh- India</p></div>
                 </div>
+
                 <div className='form-input contact-field p-2 shadow my-2 mx-2'>
                     <form onSubmit={sendEmail}>
                         <input required type="text" id="fname" name="name" placeholder="Your Name.." />

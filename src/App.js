@@ -18,6 +18,7 @@ import ContactForm from './components/ContactForm';
 import Gallery from './components/Gallery';
 import Errorpage404 from './components/Errorpage404';
 import GameDev from './components/GameDev';
+import Blog from './Blog';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/Dmarketing" element={<DMarketing />} />
           <Route exact path="/shortTerm" element={<ShortTerm />} />
           <Route exact path="/Gallery" element={<Gallery />} />
+          <Route exact path="/blogs" element={<Blog />} />
           <Route exact path="/enquiry" element={<ContactForm />} />
           <Route exact path="*" element={<Errorpage404 />} />
         </Routes>

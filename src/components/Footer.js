@@ -37,11 +37,11 @@ function Footer() {
           <div><h5>Contact info</h5></div>
 
           <div>
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             <span> Govind Kunj Civil Lines Raipur</span>
             <span>chattisgarh India</span>  
             <div>
-              <span><i class="fa-solid fa-envelope"></i></span>
+              <span><i className="fa-solid fa-envelope"></i></span>
               <span> arenaanimationraipur01@gmail.com</span>
             </div>
 
@@ -58,9 +58,9 @@ function Footer() {
           <div>
             <p>Office Timing</p>
             <p>Opens :- 09:30 to 07:30</p>
-            <button className='btn btn-light my-2'><i class="fa-solid fa-phone"></i><a href='tel:7714039789'>+91-7714039789</a></button>
+            <button className='btn btn-light my-2'><i className="fa-solid fa-phone"></i><a href='tel:7714039789'>+91-7714039789</a></button>
           </div>
-          <button className='btn btn-light my-2'><i class="fa-solid fa-phone"></i><a href='tel:7714039789'>+91-9589233695</a></button>
+          <button className='btn btn-light my-2'><i className="fa-solid fa-phone"></i><a href='tel:7714039789'>+91-9589233695</a></button>
         </div>
 
 
